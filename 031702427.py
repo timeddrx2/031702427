@@ -7,6 +7,7 @@ outcome = []  #最后的结果
 
 def slip():
         s = input()
+        s = s[2:]
         name = ''
         mydict = {"姓名":"","手机":"","地址":""}
         for i in s:
