@@ -1,3 +1,5 @@
+## -*- coding: utf-8 -*-
+import git
 import jieba
 import re
 import json
