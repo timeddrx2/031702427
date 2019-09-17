@@ -1,9 +1,10 @@
-## -*- coding: utf-8 -*-
+
 import sys
 import jieba
 import re
 import json
-
+import codecs
+sys.stdout = codecs.getwriter("utf-8")(sys.stdout.detach())
 
 outcome = []  #最后的结果
 
@@ -89,3 +90,4 @@ def slip():
 slip()
 json = json.dumps(outcome, ensure_ascii=False,indent=2)
 print(json)
+
