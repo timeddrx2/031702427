@@ -81,13 +81,12 @@ def slip():
             Address += item
         address.append(Address)
         mydict["地址"] = address
-        outcome.append(mydict)
+        #1!李四,福建省福州13756899511市鼓楼区鼓西街道湖滨路110号湖滨大厦一层print(mydict)
+        pjson = json.dumps(mydict, ensure_ascii=False)
+        print(pjson)
         #已经得出一个完整的列表
-    
 #s = f.readline()
-#s = ''
 #s += line
 slip()
-json = json.dumps(outcome, ensure_ascii=False,indent=2)
-print(json)
+
 
