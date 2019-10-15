@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/Codequality-codebeat-green.svg)](https://codebeat.co/projects/github-com-1647790440-sss-master)
 
 ### 运行环境
-使用语言为python，前端搭载与微信小程序
+使用语言为python，前端搭载于微信小程序
 
 ### 编译方法
 使用g++编译
